@@ -74,6 +74,15 @@ class User {
         "last_name": lastName,
         "avatar": avatar,
     };
+
+  @override
+  String toString() {
+    String result = "First Name: $firstName \n";
+    result += "Last Name: $lastName\n";
+    return result;
+  }
+
+
 }
 
 class Support {
